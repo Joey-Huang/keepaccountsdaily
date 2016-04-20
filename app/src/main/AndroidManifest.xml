@@ -11,12 +11,20 @@
         <activity
             android:name=".activity.AppStart"
             android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Black.NoTitleBar">
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.OnCompleting"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
         </activity>
     </application>
 
